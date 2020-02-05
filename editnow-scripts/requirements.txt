@@ -1,0 +1,4 @@
+numpy==1.17.4
+pika==1.1.0
+opencv-python-headless==4.1.2.30
+scikit-image==0.15.0

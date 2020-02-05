@@ -1,0 +1,7 @@
+.idea/
+backend/target/
+**/resources/public/
+images/
+
+frontend/target/
+frontend/node

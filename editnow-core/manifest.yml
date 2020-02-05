@@ -1,0 +1,12 @@
+---
+applications:
+  - name: editnow-core
+    memory: 872M
+    routes:
+    - route: editnow.cfapps.io
+    path: ./backend/target/editnow-core.jar
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
+    services:
+      - rabbitmq
+      - editnow-db
